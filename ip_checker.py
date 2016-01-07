@@ -159,7 +159,7 @@ def Check(ipaddr):
  
 def main():
     while True:
-        timeout = Check('186.2.169.33')
+        timeout = Check('192.168.10.10')
         time.sleep(timeout)
  
 if __name__ == "__main__":
